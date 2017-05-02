@@ -1,0 +1,346 @@
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBogp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNShampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzBampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
+
+/* Universal Styles */
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*
+.main-content {
+  position: relative;
+  top: 5.3125rem; /* To offset for fixed header.
+}
+*/
+
+/*
+.center {
+  text-align: center;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #4a4a4a;
+  color: white;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+@media only screen and (max-width: 760px) {
+  .main-content {
+    top: 2.5625rem;
+  }
+}
+
+*/
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #525252;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  color: #525252;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  color: #525252;
+}
+
+.container {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: dodgerblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.child {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: whitesmoke;
+  border: 1px solid snow;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* banner */
+
+  .banner {
+    background-color: lightgrey;
+    width: 100%
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .banner img {
+    width: 60%;
+    flex-grow: 2;
+    margin: 2rem 1.5rem 2rem 2.5rem;
+  }
+
+  .banner .container {
+    flex-grow: 1;
+    width: 40%;
+  }
+
+.button {
+    color: white;
+    background-color: #333333;
+    padding: 0.5rem 6rem;
+    justify-content: center;
+  }
+
+/* --banner2 new-- */
+.banner2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banner2 .container-left {
+  border-right: 1px solid #B6B6B6;
+  color: #B6B6B6;
+  width: calc(60% + 3rem);
+  margin-left: 1.5rem;
+}
+
+.banner2 .container-left img {
+  width: 60vw;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.section-title{
+   color: #474646;
+   font-size: 2rem;
+   font-family: 'Open Sans', sans-serif;
+   margin-top: 2rem;
+   margin-bottom: 1.5rem;
+}
+h2.section-title.bot {
+    margin-bottom: 0;
+}
+
+.time {
+  font-size: .9rem;
+  color: #474646;
+  margin-bottom: 1rem;
+  margin-top: .5rem;
+  line-height: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*--- Portion 2 side bar with items in colums ---*/
+
+
+.banner2-menu {
+  display: flex;
+  flex-direction: column;
+}
+.banner2-menu-block {
+  width: 26.437rem;
+  height: 12rem;
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.menu-item-photo {
+  width: 35%;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.like h5, .like p{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.like .menu-heading {
+  font-family: 'Open Sans', sans-serif;
+  color: #474646;
+  font-size: 1.4rem;
+  margin-top: 20%
+}
+.like .site-descripts {
+  font-family: 'Open Sans', sans-serif;
+}
+.like .read-more-link {
+  display: inline-block;
+  margin-left: 1.6rem;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #474646;
+  transition: all .2s linear 0s;
+}
+.like .read-more-link:hover {
+  color: #AD2BB3;
+  font-weight: bold;
+  transition: ease-in-out;
+}
+.add-tops {
+  margin-top: 0;
+}
+.banner2-menu .gray {
+  background-color: lightgrey;
+}
+.banner2-menu-block.gray.extends {
+    width: 28.5rem;
+}
+
+/* --banner2-- original
+.banner2 {
+  background-color: lightgrey;
+  width: 100%
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner2 .container-left {
+  margin-left: 2.5rem;
+  max-width: 60%;
+}
+
+.banner2 .container-left img {
+  max-width: 100%;
+}
+
+.banner2 .container-right {
+  width: 40%;
+  margin-left: 1.5rem;
+  max-height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.banner2 .container-right .child {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: whitesmoke;
+  border: 1px solid snow;
+  flex: 0 1 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.banner2 .container-right .child img {
+  max-width: 40%;
+  max-height: 100%;
+  margin: 0.5rem;
+}
+*/
+
+
+/*
+.banner2 img {
+  width: 60%;
+  flex-grow: 2;
+  margin: 2rem 1.5rem 2rem 2.5rem;
+}
+*/
+
+/*  .banner-2 img {
+    width: 60%;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    margin: 2rem 1.5rem 2rem 2.5rem;
+  }
+  .banner-2 .container {
+    flex-grow: 1;
+    width: 40%;
+  }
+  */
+
+
+/* --banner3-- */
+
+  .banner3 {
+    background-color: lightgrey;
+    width: 100%
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .banner3 .container {
+      width: 300px;
+      height: 300px;
+      background-color: dodgerblue;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem
+    }
+
+/* banner-4 */
+
+  .banner-4 {
+    background-color: white;
+    width: 100%
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
